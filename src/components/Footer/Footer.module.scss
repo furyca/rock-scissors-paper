@@ -1,0 +1,25 @@
+footer {
+  height: 60px;
+  margin-bottom: 2rem;
+  width: 95%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  button {
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid gray;
+    color: gray;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: all ease .3s;
+
+    &:hover {
+      background-color: whitesmoke;
+    }
+  }
+}

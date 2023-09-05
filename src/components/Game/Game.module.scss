@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    background: url("../../../public/assets/triangle.svg");
+    width: 305px;
+    height: 277px;
+    position: relative;
+    padding: 0;
+    list-style: none;
+  }
+}
